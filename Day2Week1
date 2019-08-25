@@ -1,0 +1,5 @@
+//this how to write comment 
+document.write("مرحبا بك في عالم الجافا سكربت")
+/*how to write comment for more than 2
+lines */
+document.write(5+6)
