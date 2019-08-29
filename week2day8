@@ -1,0 +1,2 @@
+var students=10; var class=5;
+document.write("students"+students+"class"class);
