@@ -1,0 +1,2 @@
+function _tryName (){
+document.write("try to type my name")}
