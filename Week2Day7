@@ -1,0 +1,4 @@
+function _tryName() {
+  return "reserved word";
+}
+document.write(_tryName())
