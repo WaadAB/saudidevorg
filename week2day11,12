@@ -1,0 +1,2 @@
+alert("مرحبا بكم في الجافا سكربت");
+console.log(new Date);// in the console section in the browser 
