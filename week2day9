@@ -1,0 +1,4 @@
+ocument.write(Math.round(.6)+"</br>");
+document.write(Math.max(7,56,34)+"</br>");
+var students=["Ahmed","Mazen"];
+document.write(students[0]);
