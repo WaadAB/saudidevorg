@@ -1,0 +1,14 @@
+document.write('your name=\"Waad\"'+"<br/>");
+var x="hello";
+document.write(x.length+"</br>");
+document.write(x.substring(0,3)+"</br>");
+document.write(x.charAt(1)+"</br>");
+document.write(x.slice(2,4)+"</br>");
+document.write(x.replace('h','H')+"</br>");
+document.write(x.toUpperCase('h','H')+"</br>");
+var s="LalaKala";
+document.write(s.split(",")+"</br>");
+document.write(s.lastIndexOf("a")+"</br>");
+
+
+
