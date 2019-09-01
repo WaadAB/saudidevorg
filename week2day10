@@ -1,0 +1,10 @@
+
+var oldDate=new Date(1994,6,2,15,10,30);
+document.write(oldDate.getFullYear()+"</br>");
+document.write(oldDate.getMonth()+"</br>");
+document.write(oldDate.getDate()+"</br>");
+document.write(oldDate.getDay()+"</br>");
+document.write(oldDate.getHours()+"</br>");
+document.write(oldDate.getUTCHours()+"</br>");
+document.write(oldDate.toString()+"</br>");
+document.write(oldDate.toLocaleTimeString());
