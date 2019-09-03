@@ -1,0 +1,11 @@
+var x=5;
+var y=8;
+
+if (x>40){
+if (y==8)
+    document.write("student upon 40 and there is 5 classes");
+else
+   document.write("the classes is less than 5");}
+
+else(x<40) 
+ document.write("student less than 55");
