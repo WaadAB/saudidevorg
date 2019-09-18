@@ -1,0 +1,14 @@
+var mark=false;
+outer:for (var i=0; i<5;i++){
+for (var j=0;j<10;j++){
+  while (j===2){
+    mark=true;
+    continue outer;}
+  while(mark){
+    document.write("second while")
+    break outer;
+  }
+  document.write(j+"</br>");
+}
+}
+document.writeln(mark);
