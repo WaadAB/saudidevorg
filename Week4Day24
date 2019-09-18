@@ -1,0 +1,25 @@
+var i=0,n=0;
+
+while (i<5){
+       i++;
+  if(i==3){
+    continue;}
+  n+=i;
+  document.write("n is equal to"+n+"</br>")
+       }
+       
+       var i=0,j=10;
+
+chechiandj:while(i<4){
+  document.write(i);
+  i++;
+  checkj:while(j>4){
+    document.write(j);
+    j--;
+    if (j%2==0){
+      continue checkj;
+    }
+    document.write("j is odd </br>");
+  }
+  document.write("j is equal to "+j+"and i is equal to "+i+"</br>");
+}
