@@ -1,0 +1,19 @@
+var x;
+function count(x){
+  return x*x;
+}
+
+document.writeln(count(5));
+
+function counter(){
+  for (var c=1;;c++){
+  
+    if (c===5){
+      return;}
+    else
+    document.write(c);
+  }
+//  document.write(c)
+}
+
+counter();
