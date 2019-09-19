@@ -1,0 +1,7 @@
+var person={name:"waad",
+            age:22,
+            degree:"bachelore"
+            };
+
+document.write("name is "+person["name"]+'</br>');
+document.write("age is "+person.age);
