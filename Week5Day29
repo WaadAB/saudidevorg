@@ -1,0 +1,19 @@
+
+var c;
+function counter(c){
+  if (c<0){
+    throw "negitivae number";
+  }
+  else 
+    return c;
+}
+try{
+var n=Number(prompt("Enter positve number",""));
+  counter(n);
+alert("n is positive ");}
+catch(y){
+  alert("is negitve");
+}
+finally{
+  alert("finally got it");
+}
