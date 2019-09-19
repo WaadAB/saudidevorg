@@ -1,0 +1,10 @@
+
+var c;
+function counter(c){
+  if (c<0){
+    throw "negitivae number";
+  }
+  else 
+    document.write("positve");
+}
+counter(-2);
