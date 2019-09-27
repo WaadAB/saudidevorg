@@ -1,0 +1,9 @@
+var car={
+  type:"car",
+  color:"black",
+  colorback:function(){
+    return this.color;
+  }
+};
+
+document.write(car.colorback());
