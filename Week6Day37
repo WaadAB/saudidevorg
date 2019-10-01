@@ -1,0 +1,13 @@
+var person={
+  name:"waad",
+  age:26,
+  degree:"B",
+  func:function(){
+    return this.name+this.age+this.degree;
+  }
+};
+
+document.write(person.func());
+document.write("name" in person);
+document.write("</br>"+person.hasOwnProperty("age")+"</br>");
+document.write(person.propertyIsEnumerable("name"));
