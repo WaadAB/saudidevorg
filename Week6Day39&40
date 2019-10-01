@@ -1,0 +1,55 @@
+var teacher={
+  subject:"",
+  coordinatorName:"",
+  NOofHours:"",
+  NoofStudents:"",
+  set subjectvalue(value){
+    this.subject=value;
+  },
+  get subjectback(){
+    return this.subject;
+  },
+  
+  set coortvalue(x){
+    this.coordinatorName=x;
+  },
+  get coorback(){
+    return this.coordinatorName;
+  },
+  
+  set hourvalue(y){
+    this.NOofHours=y;
+  },
+  get hourback(){
+    return this.NOofHours;
+  },
+  
+   set studentvalue(y){
+    this.NoofStudents=y;
+  },
+  get studentback(){
+    return this.NoofStudents;
+  }
+};
+teacher.subjectvalue="Physics";
+teacher.coortvalue="ahmed";
+teacher.hourvalue=20;
+teacher.studentvalue=35;
+document.write(teacher.subjectback+"</br>");
+document.write(teacher.coorback+"</br>");
+document.write(teacher.hourback+"</br>");
+document.write(teacher.studentback);
+
+*********************************************
+function teacher(s,c,n,s){
+  this.subject=s,
+  this.coordinatorName=c,
+  this.NOofHours=n,
+  this.NoofStudents=s};
+
+  var t=new teacher("Math","Ahmed",23,35);
+document.write(t.subject+"</br>");
+document.write(t.coordinatorName+"</br>");
+document.write(t.NOofHours+"</br>");
+document.write(t.NoofStudents);
+
