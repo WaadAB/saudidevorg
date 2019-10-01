@@ -1,0 +1,10 @@
+function student(id,name,age){
+  this.id=id;
+  this.name=name;
+  this.age=age;
+};
+
+var s1=new student(12345,"Ahmed",29);
+document.write("id="+s1.id+"</br>"+"name="+s1.name+"</br>"+"age="+s1.age);
+delete s1.name;
+document.write("id="+s1.id+"</br>"+"name="+s1.name+"</br>"+"age="+s1.age);
