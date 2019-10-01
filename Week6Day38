@@ -1,0 +1,17 @@
+var person={
+  firstname:"waad",
+  lastname:"ali",
+  language:"",
+  set langvalue(value){
+    this.language=value;
+  },
+  get langback(){
+    return this.language;
+  }
+};
+person.langvalue="English";
+person.lastname="Ahmed";
+document.write(person.language+"</br>");
+document.write(person.lastname+"</br>");
+var x=person.langback;
+document.write(x);
