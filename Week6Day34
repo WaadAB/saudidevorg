@@ -1,0 +1,22 @@
+var car={
+  type:"car",
+  func:function(){
+    return this.type;
+  },
+};
+  
+  document.write(car.func());
+var x=this;
+  document.write(x);
+
+if (this==window){
+  var a=37;
+  document.write(window.a);
+}
+this.b="it is mine";
+document.write(window.b);
+
+function myfunction(){
+  return this;
+}
+document.write(myfunction());
