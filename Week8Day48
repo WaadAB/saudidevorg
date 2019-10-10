@@ -1,0 +1,4 @@
+var names=[];
+names.length=3;
+names=new Array("Waad","bilal","alyaa");
+document.write(names[0]);
