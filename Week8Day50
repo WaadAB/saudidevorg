@@ -1,0 +1,11 @@
+var names=["w","s","e"];
+delete names[1];
+var n=names.length;
+document.write(n);
+
+var age=[112,234,234,543];
+age.length=2;
+document.write(age.length);
+age.length=0;
+document.write(age.length);
+document.write(age[0]);
