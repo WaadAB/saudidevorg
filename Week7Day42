@@ -1,0 +1,9 @@
+function Person(first,last,age,eye){
+  this.firstName=first;
+  this.lastName=last;
+  this.agePerson=age;
+  this.eyeColor=eye;
+}
+var mother=new Person("Mom","Mom",65,"blue");
+Person.prototype.nation="Arabic";
+document.write(mother.nation);
