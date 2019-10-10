@@ -1,0 +1,18 @@
+var numbers=[45,6,7,4,3];
+var item="";
+for (var i=0;i<numbers.length;i++){
+  item=item + numbers[i]+"      ";
+ 
+}
+ document.write(item);
+ var numbers=[45,6,7,4,3];
+var item="";
+numbers.forEach(myFunction);
+
+function myFunction(value){
+  item=item+value+"    ";
+
+}
+ document.write(item);
+ 
+ 
