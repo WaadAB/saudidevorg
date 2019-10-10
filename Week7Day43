@@ -1,0 +1,2 @@
+var languages=["Arabic","English","French"];
+var numbers=[12,34,56];
