@@ -1,0 +1,11 @@
+var numbers=[];
+numbers[0]="zero";
+numbers[1]="one";
+
+var names=[];
+names.push("zero");
+names.push("one","two");
+
+var ages=[15,16,17];
+ages[3]=12;
+ages[4]=23;
